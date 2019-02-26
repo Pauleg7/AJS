@@ -18,7 +18,7 @@ function topPoints (points, amount) {
     summ += arrPoints[i];
   }
 
-  return summ / amount;
+  return (summ / amount).toFixed(2);
 }
 
 console.log('Самый лучший балл:' + maxPoint(points));
